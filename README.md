@@ -7,9 +7,9 @@ Navigate to the directory
 
 run `source env/bin/activate` for Linux/Mackbook or run `.\env\Scripts\activate` on a windows
 
-run `python -m http.server 8000`
+run `python -m http.server 8000` to spin up the frontend
 
-run `python backend.py`
+run `python backend.py` to spin up the backend
 
 Then navigate to localhost:8000 and input all the information needed for your reservation and leave the app running on your comupter until you get a text and email from texas roadhouse. 
 
