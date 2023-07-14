@@ -1,6 +1,10 @@
 # chatgpt-texas-roadhouse-reservation
 I used only code from ChatGPT to make this.
 
+What it does:
+
+This is a Texas Roadhouse reservation maker for the current day. Currently if you decided around 2:00 PM that you want to eat there with 4 people at 7:00 PM you would have to start checking the wait times around 4:30 PM and continually check them until eventually the wait time matches up with the time between when you make the reservation and when you want to arrive. This is a tiresome process that a lot of the times has high unpredictability that might make you miss your mark. With this program it will do the checking and reserve for you so that all you have to think about is when you show up. It currently checks every 5 minutes but you can make it more often if your texas roadhouse wait times are more volatile.
+
 How to run:
 
 Navigate to the directory
