@@ -1,11 +1,11 @@
 # chatgpt-texas-roadhouse-reservation
 I used only code from ChatGPT to make this.
 
-How to run on a Macbook:
+How to run:
 
 Navigate to the directory
 
-run `source env/bin/activate`
+run `source env/bin/activate` for Linux/Mackbook or run `.\env\Scripts\activate` on a windows
 
 run `python -m http.server 8000`
 
