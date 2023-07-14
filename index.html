@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Texas Roadhouse Reservation Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="partySizeSelect">Party Size:</label>
+    <select id="partySizeSelect">
+        <option value="">Select party size</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label for="reservationTime">Reservation Time:</label>
+    <input type="time" id="reservationTime">
+
+    <select id="locationSelect" style="width:200px;">
+        <!-- Options will be filled by jQuery -->
+    </select>
+    <p id="selectedLocation">No location selected yet</p>
+    <p id="waitTimeWarning"></p>
+
+    <form id="reservationForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" required>
+
+        <label for="includeHighchair">Include Highchair?</label>
+        <input type="checkbox" id="includeHighchair">
+
+        <button type="submit" id="submitReservation">Submit Reservation</button>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
